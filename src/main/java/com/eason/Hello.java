@@ -4,9 +4,16 @@ public class Hello {
     public static void main(String[] args) {
 //        System.out.println("Hello World");
 //            new Person().hello();
-            Person p = new Person();
+//            Person p = new Person();
+            Person p = new Person("Eason",1.7, 85.5);
             p.hello();
-            int age = 19;   //short long
+            p.height = 1.7;
+            p.weight = 85.5;
+            p.name = "Eason";
+            System.out.println(p.name);
+            System.out.println(p.bmi());
+
+            /*int age = 19;   //short long
             Integer age2 = 19;
             char c = '我';
             Character c2 = c;
@@ -15,6 +22,6 @@ public class Hello {
             double height = 1.7;
             boolean adult = true;
             boolean enroll = false;
-            String name = "Eason";
+            String name = "Eason";*/
     }
 }
