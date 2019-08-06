@@ -6,5 +6,15 @@ public class Hello {
 //            new Person().hello();
             Person p = new Person();
             p.hello();
+            int age = 19;   //short long
+            Integer age2 = 19;
+            char c = '我';
+            Character c2 = c;
+            byte b = 120;
+            float weight = 66.5f;
+            double height = 1.7;
+            boolean adult = true;
+            boolean enroll = false;
+            String name = "Eason";
     }
 }
