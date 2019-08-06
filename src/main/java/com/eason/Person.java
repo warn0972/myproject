@@ -4,7 +4,7 @@ public class Person {
     String name;
     double height;
     double weight;
-/*    public Person(){
+/*    public Person(){      無傳參數建構子
 
     }*/
     public Person(double height, double weight){

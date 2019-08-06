@@ -4,7 +4,7 @@ public class Hello {
     public static void main(String[] args) {
 //        System.out.println("Hello World");
 //            new Person().hello();
-//            Person p = new Person();
+//            Person p = new Person();  //Person()系統預設無傳參數建構子
             Person p = new Person("Eason",1.7, 85.5);
             p.hello();
             p.height = 1.7;
