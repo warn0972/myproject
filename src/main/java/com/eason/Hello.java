@@ -12,6 +12,13 @@ public class Hello {
             p.name = "Eason";
             System.out.println(p.name);
             System.out.println(p.bmi());
+            int score = 88;
+            System.out.println(score > 80 && score<90);
+            System.out.println(score < 80 || score>90);
+            char c = 'A';
+        System.out.println(c>60);
+        System.out.println(c>'a');
+
 
             /*int age = 19;   //short long
             Integer age2 = 19;
