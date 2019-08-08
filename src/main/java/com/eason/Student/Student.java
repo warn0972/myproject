@@ -13,6 +13,6 @@ public class Student {
     }
     public void print(){
         System.out.println(name + "\n" + english + "\t"+ math +
-                "\t" + (english + math)/2 );
+                "\t" + "平均分數:"+(english + math)/2 );
     }
 }
